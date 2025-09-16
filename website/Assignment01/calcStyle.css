@@ -1,0 +1,54 @@
+body {
+    font-family:fantasy;
+    display: flex;
+    /* "display: flex;" groups tthings together for formatting ease */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+.calculator {
+    /* I am pretty sure this is the outline and background*/
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */ 
+    /* Shadow color is difficult */
+    width: 200px;
+    text-align: center;
+}
+.calculator h2 {
+    margin-bottom: 50px;
+}
+.calculator label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.calculator input[type="text"] {
+    background-color: #9bd8bf;
+    color: rgb(24, 0, 117);
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.calculator .operator-group {
+    background-color: #8f09e2;
+    color: rgb(197, 220, 193);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.calculator input[type="submit"] {
+    background-color: #4caf86;
+    color: rgb(61, 22, 217);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.calculator input[type="submit"]:hover {
+    background-color: #45a049;
+}

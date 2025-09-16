@@ -1,0 +1,9 @@
+body {
+    font-family:fantasy;
+    display: flex;
+    /* "display: flex;" groups tthings together for formatting ease */
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin: 0;
+}

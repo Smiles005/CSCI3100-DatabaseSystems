@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="calcStyle.css">
+    <!-- I can either put <style> here or in its own file -->
+</head>
+<body>
+    <div class="calculator">
+        <h2>My Calculator</h2>
+        <form action="calculator_action.php" method="post">
+            <label for="operand1">First Number:</label>
+            <input type="text" id="operand1" name="operand1" required>
+            
+            <label for="operand2">Second Number:</label>
+            <input type="text" id="operand2" name="operand2" required>
+            
+            <label>Operator:</label>
+            <!-- Radio buttons share the same name="operator" to ensure only one can be selected. -->
+            <div class="operator-group">
+                <input type="radio" id="add" name="operator" value="add" required>
+                <label for="add">+</label>
+                
+                <input type="radio" id="subtract" name="operator" value="subtract">
+                <label for="subtract">-</label>
+                
+                <input type="radio" id="multiply" name="operator" value="multiply">
+                <label for="multiply">X</label>
+                
+                <input type="radio" id="divide" name="operator" value="divide">
+                <label for="divide">/</label>
+            </div>
+            
+            <input type="submit" value="Enter">
+        </form>
+    </div>
+</body>
+</html>
