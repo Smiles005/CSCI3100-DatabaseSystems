@@ -1,0 +1,18 @@
+body {
+    font-family:fantasy;
+    display: flex;
+    /* "display: flex;" groups tthings together for formatting ease */
+    justify-content: center;
+    align-items: center;
+    height: 400vh;
+    background-color: #2aa0c7;
+    margin: 0;
+}
+table, th, td {
+    border: 1px solid rgb(49, 23, 181);
+    border-collapse: collapse;
+}
+th, td {
+    background-color: #12b651;
+    border-style: inset;
+}
